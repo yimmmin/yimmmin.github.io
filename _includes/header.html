@@ -1,0 +1,17 @@
+<div id="particles-js">
+    <div class="header">
+        <h1>
+            <span class="site-title">{{ site.author }}</span>
+            <span class="site-description">{{ site.tagline }}</span>
+        </h1>
+        <div class="header-icons">
+            <a aria-label="Appreciation" href="{{ '/appreciation/' | relative_url }}"><i class="icon fa fa-book" aria-hidden="true"></i></a>
+            <a aria-label="Creation" href="{{ '/creation/' | relative_url }}"><i class="icon fa fa-pencil" aria-hidden="true"></i></a>
+            <a aria-label="Code" href="{{ '/code/' | relative_url }}"><i class="icon fa fa-code" aria-hidden="true"></i></a>
+            <!-- <a aria-label="Music" href="{{ '/music/' | relative_url }}"><i class="icon fa fa-music aria-hidden="true"></i></a> -->
+            <a aria-label="Record" href="{{ '/record/' | relative_url }}"><i class="icon fa fa-user" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+<script src="{{ '/assets/js/particle.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
