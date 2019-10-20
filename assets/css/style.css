@@ -627,9 +627,18 @@ main {
       border-bottom: 0.5px solid #0A59B0; }
 
 #posts-label {
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
   font-size: 15px;
   color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+  font-weight: normal; }
+
+#posts-label2 {
+  border-bottom: 2px solid #eee;
+  font-size: 23px;
+  color: #aaa;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 10px;

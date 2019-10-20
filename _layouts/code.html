@@ -8,6 +8,9 @@ layout: default
   <section class="content">
     {%- if site.posts.size > 0 -%}
       <ul class="posts">
+        <li>
+          <h1 id="posts-label2">代码</h1>
+        </li>
         {%- for post in site.posts -%}
           {%- if post.categories[0] == 'code' -%}
             <li>
