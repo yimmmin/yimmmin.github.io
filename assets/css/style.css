@@ -90,7 +90,7 @@ hr {
   height: 0; }
 
 pre {
-  overflow: auto; }
+  /*overflow: auto;*/ }
 
 code,
 kbd,
@@ -176,6 +176,14 @@ td,
 th {
   padding: 0; }
 
+code {background: none}
+
+pre code {
+  font-family: 'Consolas', Menlo, monospace;
+  line-height: 1.4em;
+  tab-size: 4;}
+
+
 /* Solarized Light 
 For use with Jekyll and Pygments
 http://ethanschoonover.com/solarized
@@ -191,7 +199,7 @@ cyan      #2aa198  strings, numbers
 green     #859900  operators, other keywords
 */
 .highlight {
-  background-color: #fdf6e3;
+  background-color: #f4f4f4;
   color: #586e75; }
 
 .highlight .c {
@@ -469,8 +477,9 @@ green     #859900  operators, other keywords
 
 /* Literal.Number.Integer.Long */
 .highlight {
-  padding:0 10px;
-  background-color: #f4f4f4; }
+  /*padding:0 10px;*/
+  background-color: #f4f4f4;
+   }
 
 div.highlight {
   padding: 5px 20px; }
@@ -648,7 +657,7 @@ main {
   margin-left: 70px;
   /*border-top: 1px solid #eee;*/
   font-size: 15px;
-  color: #777;
+  color: #aaa;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 10px;

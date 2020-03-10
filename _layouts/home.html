@@ -14,10 +14,10 @@ layout: default
 {%- if site.posts.size > 0 -%}
 <ul class="posts">
   <li>
-    <h1 id="posts-label">Recent</h1>
+    <h1 id="posts-label2">最近</h1>
   </li>
 
-  {%- for post in site.posts -%}
+  {%- for post in site.posts limit:5 -%}
   <li>
     {%- assign date_format = site.plainwhite.date_format | default: "%-m月%-d日, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
