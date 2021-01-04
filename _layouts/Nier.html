@@ -11,7 +11,7 @@ layout: default
           <h1 id="posts-label2">Nier</h1>
         </li>
         {%- for post in site.posts -%}
-          {%- if post.categories[0] == 'Nier' -%}
+          {%- if post.categories[0] == 'nier' -%}
             <li>
               {%- assign date_format = site.plainwhite.date_format | default: "%-m月%-d日, %Y" -%}
               <a class="post-link" href="{{ post.url | relative_url }}">

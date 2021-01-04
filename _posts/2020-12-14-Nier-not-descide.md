@@ -2,7 +2,7 @@
 layout: post
 title: 要素介绍
 date: 2020-01-13 18:13:00
-categories: Nier
+categories: nier
 tags: 游戏 尼尔 人生
 excerpt: ...
 ---
