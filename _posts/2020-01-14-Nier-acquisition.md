@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 获取方式
-date: 2020-01-13 18:13:00
+date: 2020-01-14 18:13:00
 categories: nier
 tags: 游戏 尼尔 人生
 excerpt: ...
